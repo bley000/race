@@ -2,7 +2,7 @@ import pandas as pd
 
 # 讀取 Excel 檔案，指定 header 為 1 以使用第二行作為列名
 df = pd.read_excel('/workspaces/race/結構柱明細表.xlsx', header=3)
-print(df.columns)
+#print(df.columns)
 while True:
     # 提示用戶輸入多個族群類型，以逗號分隔
     族群類型輸入 = input("請輸入一個或多個族群類型（以逗號分隔），或輸入'結束'以結束程式: ")
